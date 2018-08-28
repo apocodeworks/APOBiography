@@ -1,0 +1,89 @@
+body {
+    background-color: #f2f2f2;
+    
+    background-image: url("gravel.png");
+    }
+    
+    
+    header {
+        margin-left: -10px;
+        margin-right: -10px;
+        border-bottom: 3px solid rgba(232, 232, 232, 0.8);
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Homebutton {
+        width: 12%;
+        float: left;
+        margin-top: 0;
+        margin-left: 250px;
+        height: 75px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        text-align: center;
+        background-color: #29a3a3;
+        font-size: 21px;
+        color: white;
+    }
+    
+    ul {
+    
+        margin-right: 250px;
+        font-size: 20px;
+    }
+    li {
+        float: right;
+        list-style: none;
+    }
+    
+    a {
+        display: block;
+        color: grey;
+        padding: 3px;
+        text-decoration: none;
+    
+    }
+    
+    a:visited {
+        color: grey;
+    }
+    .container {
+        border: 3px ridge rgba(233, 233, 233, 0.5);
+        padding: 20px;
+        background-color: white;
+        margin-left: 250px;
+        margin-right: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+    
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #29a3a3;
+    }
+    
+    #headshot {
+        float: left;
+        padding-right: 20px;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 12px;
+        color: white;
+        background-color: grey;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        border-top: 8px solid #29a3a3;
+    }
+    .clearfix:after {
+        content: " "; /* Older browser do not support empty content */
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+     }
